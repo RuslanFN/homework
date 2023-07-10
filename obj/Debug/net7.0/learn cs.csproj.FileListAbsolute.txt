@@ -1,0 +1,15 @@
+/home/ruslan/learn cs/bin/Debug/net7.0/learn cs
+/home/ruslan/learn cs/bin/Debug/net7.0/learn cs.deps.json
+/home/ruslan/learn cs/bin/Debug/net7.0/learn cs.runtimeconfig.json
+/home/ruslan/learn cs/bin/Debug/net7.0/learn cs.dll
+/home/ruslan/learn cs/bin/Debug/net7.0/learn cs.pdb
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.csproj.AssemblyReference.cache
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.GeneratedMSBuildEditorConfig.editorconfig
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.AssemblyInfoInputs.cache
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.AssemblyInfo.cs
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.csproj.CoreCompileInputs.cache
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.dll
+/home/ruslan/learn cs/obj/Debug/net7.0/refint/learn cs.dll
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.pdb
+/home/ruslan/learn cs/obj/Debug/net7.0/learn cs.genruntimeconfig.cache
+/home/ruslan/learn cs/obj/Debug/net7.0/ref/learn cs.dll
