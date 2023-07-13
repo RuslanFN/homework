@@ -1,53 +1,42 @@
 ﻿using System;
-class HelloWorld {
-  static void Main() {
-    //task 1
-    Console.WriteLine("Введите первое число");
-    int num_a = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Введите второе число");
-    int num_b = Convert.ToInt32(Console.ReadLine());
-
-    if (num_a > num_b){
-        Console.WriteLine(num_a);
-    }else{
-        Console.WriteLine(num_b);
-    }
-    
-    //task 2
-    Console.WriteLine("Введите первое число");
-    int num_c = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Введите второе число");
-    num_a = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Введите третье число");
-    num_b = Convert.ToInt32(Console.ReadLine());
-
-    if (num_a >= num_b && num_a >= num_c){
-        Console.WriteLine(num_a);
-    }else if (num_b >= num_a && num_b >= num_c){
-        Console.WriteLine(num_b);
-    }else {
-        Console.WriteLine(num_c);
-    }
-
-    // task 3
-    Console.WriteLine("Введите число");
-    num_a = Convert.ToInt32(Console.ReadLine());
-
-    if(num_a % 2 == 0){
-        Console.WriteLine("Да");
-    }else {
-        Console.WriteLine("Нет");
-    }
-
-    //task 4
-    Console.WriteLine("Введите число больше одного");
-    num_a = Convert.ToInt32(Console.ReadLine());
-
-    for (int i = 2; i <= num_a; i++){
-        if (i % 2 == 0){
-            Console.WriteLine(i);
+class Homework {
+    static int read_num(){
+        int num;
+        Console.WriteLine("Введите число");
+        bool isValid = Int32.TryParse(Console.ReadLine(), out num);
+        if (isValid){
+            return num;
+        }
+        else{
+            Console.WriteLine("Неверный ввод");
+            return 0;
         }
     }
+    static void task10(int num){
+        int result = num / 10 % 10;
+        Console.WriteLine(result);
+    }
+    static void task13(int num){
+        if (num < 100){
+            Console.WriteLine("третьей цифры нет");
+        }
+        else{
+            Console.WriteLine(num % 10);
+        }
+    }
+    static void task15(int num){
+        if (num == 6 || num == 7){
+            Console.WriteLine("Да");
+        }
+        else{
+            Console.WriteLine("Нет");
+        }
+    }
+    static void Main() {
+
+        task10(read_num());
+        task13(read_num());
+        task15(read_num());
 
 
   }
